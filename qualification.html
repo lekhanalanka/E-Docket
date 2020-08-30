@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Qualifications</title>
+    <style>
+
+        tr:nth-child(even){background-color: #f2f2f2}
+
+        th {
+          background-color: blue;
+          color: white;}
+
+        table, th, td {
+          width:100%;
+          border: 1px solid black;
+          border-collapse: collapse;
+          text-align:center;
+          padding: 10px;
+          border-spacing: 5px;}
+    </style>
+  </head>
+  <body>
+    <form method="post" id="my_form"></form>
+
+    <table class="table table-hover small-text" id="tb">
+
+        <tr class="tr-header">
+            <th>Qualification</th>
+            <th>Date of passing</th>
+            <th>Branch(if applicable)</th>
+            <th>College Name</th>
+            <th>Location</th>
+            <th>University</th>
+            <th>Additional Info(if any)</th>
+
+        </tr>
+
+        <tr>
+
+          <td>
+            <select name="qualification" form="my_form">
+            			<option value="space">--select option--</option>
+            			<option value="tenth">Secondary School/10th</option>
+            			<option value="twelveth">Preuniversity/12th</option>
+            			<option value="ug">Under Graduation</option>
+            			<option value="pg">Post Graducation</option>
+          			  <option value="phd">Mphil/PHD</option>
+        		</select>
+          </td>
+
+
+          <td>
+                <input type="date" name="passing" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="dept" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="colg" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="loc" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="univ" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="info" form="my_form" />
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>
+            <select name="twelveth" form="my_form">
+            			<option value="space">--select option--</option>
+            			<option value="tenth">Secondary School/10th</option>
+            			<option value="twelveth">Preuniversity/12th</option>
+            			<option value="ug">Under Graduation</option>
+            			<option value="pg">Post Graducation</option>
+          			  <option value="phd">Mphil/PHD</option>
+        		</select>
+          </td>
+
+
+          <td>
+                <input type="date" name="twelveth_passing" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="twelveth_dept" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="twelveth_colg" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="twelveth_loc" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="twelveth_univ" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="twelveth_info" form="my_form" />
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>
+            <select name="ug" form="my_form">
+            			<option value="space">--select option--</option>
+            			<option value="tenth">Secondary School/10th</option>
+            			<option value="twelveth">Preuniversity/12th</option>
+            			<option value="ug">Under Graduation</option>
+            			<option value="pg">Post Graducation</option>
+          			  <option value="phd">Mphil/PHD</option>
+        		</select>
+          </td>
+
+
+          <td>
+                <input type="date" name="ug_passing" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="ug_dept" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="ug_colg" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="ug_loc" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="ug_univ" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="ug_info" form="my_form" />
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>
+            <select name="pg" form="my_form">
+            			<option value="space">--select option--</option>
+            			<option value="tenth">Secondary School/10th</option>
+            			<option value="twelveth">Preuniversity/12th</option>
+            			<option value="ug">Under Graduation</option>
+            			<option value="pg">Post Graducation</option>
+          			  <option value="phd">Mphil/PHD</option>
+        		</select>
+          </td>
+
+
+          <td>
+                <input type="date" name="pg_passing" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="pg_dept" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="pg_colg" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="pg_loc" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="pg_univ" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="pg_info" form="my_form" />
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>
+            <select name="phd" form="my_form">
+            			<option value="space">--select option--</option>
+            			<option value="tenth">Secondary School/10th</option>
+            			<option value="twelveth">Preuniversity/12th</option>
+            			<option value="ug">Under Graduation</option>
+            			<option value="pg">Post Graducation</option>
+          			  <option value="phd">Mphil/PHD</option>
+        		</select>
+          </td>
+
+
+          <td>
+                <input type="date" name="phd_passing" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="phd_dept" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="phd_colg" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="phd_loc" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="phd_univ" form="my_form" />
+          </td>
+
+          <td>
+                <input type="text" name="phd_info" form="my_form" />
+          </td>
+
+        </tr>
+
+    </table>
+
+    <br><br>
+
+      <button type="submit" form="my_form">submit</button>
+
+
+  </body>
+</html>
